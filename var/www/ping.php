@@ -67,7 +67,7 @@ if( $url3 != "" ) {
 				}
 	$time = $total;
 	
-	if($time == "" OR $time == "0") {$time = "timeout";}
+	if($time == "" OR $time == "0") {$time = "0";}
 		
     $query = "INSERT INTO log (url, ping) VALUES ('$url3','$time')";
 

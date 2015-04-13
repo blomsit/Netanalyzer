@@ -56,7 +56,7 @@ $query = "SELECT MIN(time) as start FROM log;";
 
 
 
-echo "Result for ping:<br>Test active between ".$start." and ".$stop." UTC<br><br><br>";
+echo "Result for ping:<br>Test active between ".$start." and ".$stop." <br><br><br>";
 
 echo "Result for ".$url1.":<br><br>";
 

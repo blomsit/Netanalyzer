@@ -4,7 +4,7 @@
 $strServer = "127.0.0.1";
 $strAnvId = "root";
 $strLosenord = "primax";
-$strDatabas = "log"; 
+$strDatabas = "logg"; 
 $db = new mysqli($strServer, $strAnvId, $strLosenord, $strDatabas);
 
 
